@@ -1,0 +1,83 @@
+:root {
+    --color-primary: #024E95;
+    --color-secondary: #12664F;
+    --color-background: #C1EDCC;
+    --color-muted: #B0C0BC;
+    --color-text: #A7A7A9;
+    --font-heading: 'Inter', sans-serif;
+    --font-body: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--color-text);
+    background: var(--color-background);
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    margin-bottom: 0.5em;
+}
+
+header.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: var(--color-primary);
+    color: white;
+}
+
+header.hero .subheadline {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+
+header.hero .cta {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: var(--color-secondary);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+section {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.services ul {
+    list-style: disc inside;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+}
+
+blockquote {
+    font-style: italic;
+    background: var(--color-muted);
+    padding: 1rem;
+    border-left: 4px solid var(--color-secondary);
+}
+
+.site-footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: var(--color-primary);
+    color: white;
+}
+
+@media (min-width: 600px) {
+    header.hero {
+        padding: 6rem 2rem;
+    }
+}

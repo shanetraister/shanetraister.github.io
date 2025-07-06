@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shane Traister | Data Science & Workforce Analytics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Shane Traister</h1>
+        <p class="subheadline">Director of Workforce Analytics | Data Science Leader | BI &amp; ETL Expert</p>
+        <a href="#contact" class="cta">Contact Me</a>
+    </header>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>I'm a people analytics and data engineering expert with over a decade of experience helping mission-driven organizations like Teach For America and KIPP SoCal use data to improve workforce outcomes. I specialize in transforming HR and operational data into scalable systems, predictive models, and compelling visual narratives.</p>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Data Engineering &amp; ETL (Python, SQL, BigQuery, Airflow)</li>
+            <li>Business Intelligence (Power BI, Tableau, Looker Studio)</li>
+            <li>People Analytics (Turnover, DEI, Retention Modeling)</li>
+            <li>Team Coaching &amp; Workflow Automation</li>
+        </ul>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3><a href="https://github.com/shanetraister/portfolio" target="_blank" rel="noopener">Staff Retention Dashboard</a></h3>
+            <p>Power BI dashboard tracking turnover and headcount trends across time, filtered by role, location, and demographics.</p>
+        </div>
+        <div class="project">
+            <h3>HRIS Pipeline Automation</h3>
+            <p>Serverless Python pipeline automating ingestion and processing of UKG and Schoolmint Grow data into BigQuery.</p>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <h2>Testimonials</h2>
+        <blockquote>
+            <p>"Shane transformed the way our team uses data—our decision-making is faster, more aligned, and more strategic."</p>
+            <footer>- Former Manager, Teach For America</footer>
+        </blockquote>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:straister@kippsocal.org">straister@kippsocal.org</a></p>
+        <p><a href="https://www.linkedin.com/in/shanetraister/" target="_blank" rel="noopener">LinkedIn</a> | <a href="https://github.com/shanetraister" target="_blank" rel="noopener">GitHub</a></p>
+    </section>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="year"></span> Shane Traister</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
