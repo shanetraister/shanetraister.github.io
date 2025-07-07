@@ -187,7 +187,8 @@ section {
     transition: background-color 0.3s ease;
 }
 
-.navigation-link:hover {
+.navigation-link:hover,
+.navigation-link-selected {
     background-color: var(--accent-primary-A20);
 }
 
@@ -201,7 +202,8 @@ section {
     height: 100%;
 }
 
-.navigation-link:hover a {
+.navigation-link:hover a,
+.navigation-link-selected a{
     color: var(--accent-primary);
 }
 
